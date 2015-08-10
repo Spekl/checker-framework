@@ -1,5 +1,5 @@
 name       : checker-framework          # name of the package
-version    : 1.9.4-2       # version of the package
+version    : 1.9.4-3       # version of the package
 kind       : tool                     # one of tool or spec(s)
 description: The Checker Framework enhances the Java type system to make it more powerful and useful.
 
@@ -20,6 +20,9 @@ assets:
 install:
   - cmd: unzip MAIN
     description: Unpacking the Checker Framework Distribution (version 1.9.4)
+    platform: all
+  - cmd: mv checker-framework*/checker .
+    description: Restructuring distribution...
     platform: all
 
         
