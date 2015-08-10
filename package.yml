@@ -1,5 +1,5 @@
 name       : checker-framework          # name of the package
-version    : 1.9.4-1       # version of the package
+version    : 1.9.4-2       # version of the package
 kind       : tool                     # one of tool or spec(s)
 description: The Checker Framework enhances the Java type system to make it more powerful and useful.
 
