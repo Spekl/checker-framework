@@ -11,5 +11,6 @@
 
   ;; running a check
   (log/info  "Running a check.")  
-  (run "cmd" "arg1" "${installed-package:asset.jar}" "-esc" *project-files-string* ))
+  ;(run "cmd" "arg1" "${installed-package:asset.jar}" "-esc" *project-files-string* )
+  )
 
